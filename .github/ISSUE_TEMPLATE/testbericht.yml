@@ -1,0 +1,47 @@
+name: Testbericht oder Verbesserungsvorschlag
+description: Melde eine Beobachtung zur Recherche, Belegprüfung oder Textfassung.
+title: "[Test] "
+body:
+  - type: markdown
+    attributes:
+      value: Danke fürs Testen. Bitte teile nur Beispiele und Quellen, die du hier veröffentlichen darfst.
+  - type: input
+    id: version
+    attributes:
+      label: Werkzeug und Plugin-Version
+      placeholder: "z. B. Codex, Deep Research 0.1.0"
+    validations:
+      required: true
+  - type: textarea
+    id: aufgabe
+    attributes:
+      label: Aufgabe oder teilbares Beispiel
+      description: Welche Frage wurde untersucht? Ein kurzer Ausschnitt genügt.
+    validations:
+      required: true
+  - type: textarea
+    id: erwartet
+    attributes:
+      label: Erwartetes Ergebnis
+    validations:
+      required: true
+  - type: textarea
+    id: beobachtet
+    attributes:
+      label: Beobachtetes Ergebnis
+      description: Was geschah tatsächlich? Ein gelungenes Ergebnis ist ebenfalls willkommen.
+    validations:
+      required: true
+  - type: textarea
+    id: beleg
+    attributes:
+      label: Quelle und Fundstelle, falls betroffen
+      description: Link und genaue Stelle helfen bei Fragen zur Belegprüfung.
+    validations:
+      required: false
+  - type: textarea
+    id: vorschlag
+    attributes:
+      label: Vorschlag zur Verbesserung
+    validations:
+      required: false

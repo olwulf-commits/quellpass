@@ -10,4 +10,12 @@ Codex findet den Katalog unter `.agents/plugins/marketplace.json`. Cursor kann d
 
 Die zwei Suchspuren brauchen tatsächlich getrennte Kontexte, wenn ihre Unabhängigkeit behauptet werden soll. Das optionale lokale Werkzeug `scripts/semantic_feedback.py` sortiert bereits abgerufene Seitenabschnitte; für seinen CLI-Aufruf wird `fastembed` und ein lokal verfügbares Embedding-Modell benötigt. Es führt keine Websuche aus. Die ausführende Umgebung muss ein Websuchwerkzeug und lesbaren Zugriff auf Originalquellen bereitstellen. Fehlen diese Voraussetzungen, muss der Lauf seine Grenzen nennen.
 
-Das Repository ist privat. Ein vollständiger Recherchelauf wurde mit dieser Fassung noch nicht geprüft. Über die Lizenz und eine öffentliche Freigabe ist noch nicht entschieden.
+## Lizenz
+
+Skilltext, README und Referenztexte stehen unter [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). Das Python-Werkzeug und die technischen Paketdateien stehen unter der MIT License. Die genaue Zuordnung und die Lizenztexte stehen in [LICENSE.md](LICENSE.md). Eigene Rechercheberichte und mit dem Plugin erstellte Texte erhalten dadurch keine Deep-Research-Lizenz.
+
+## Mithelfen
+
+Tests und konkrete Verbesserungsvorschläge sind willkommen. Wer Zugriff auf das Repository hat, kann dafür einen [Testbericht auf GitHub](https://github.com/olwulf-commits/deep-research-plugin/issues/new/choose) anlegen. Die Vorlage fragt nach Werkzeug, Version, Beispiel und beobachtetem Ergebnis. Auch ein gelungener Test hilft uns. Wir prüfen die Rückmeldungen und entscheiden, was an der offiziellen Fassung geändert wird.
+
+Das Repository ist privat. Ein vollständiger Recherchelauf wurde mit dieser bereinigten Fassung noch nicht geprüft. Über eine öffentliche Freigabe ist noch nicht entschieden.

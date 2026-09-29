@@ -5,6 +5,8 @@ description: Recherchiere eine prüfbare Frage mit semantisch gelesenen Webquell
 
 # Deep Research Plugin
 
+Lizenz dieses Skilltexts: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) · © 2026 Olaf Wulf. Bearbeitungen müssen als solche gekennzeichnet und unter derselben Lizenz weitergegeben werden. Die allgemeine Originalfassung liegt in diesem Repository.
+
 Arbeite modell- und anbieterneutral. Die ausführende KI steuert den Ablauf und schreibt einen beauftragten Entwurf selbst. Recherche, Belegprüfung und Textgegenprüfung sind getrennte Aufgaben. Lies vor dem Lauf [das Recherche- und Textprotokoll](references/protokoll.md). Es setzt die Verfahrensgrenzen und erläutert die Durchführung.
 
 ## Auftrag und Gegenfrage
