@@ -1,0 +1,16 @@
+{
+  "name": "deep-research",
+  "owner": {
+    "name": "Olaf Wulf"
+  },
+  "metadata": {
+    "description": "Allgemeines Deep-Research-Plugin mit Belegprüfung und unabhängiger Gegenfrage"
+  },
+  "plugins": [
+    {
+      "name": "deep-research-plugin",
+      "source": "plugins/deep-research-plugin",
+      "description": "Quellengebundene Recherche mit Gegenfrage und Textabgleich"
+    }
+  ]
+}
