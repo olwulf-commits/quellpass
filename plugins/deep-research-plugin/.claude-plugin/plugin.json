@@ -1,8 +1,0 @@
-{
-  "name": "deep-research-plugin",
-  "description": "Quellengebundene Recherche mit unabhängiger Gegenfrage, Belegprüfung und kontrolliertem Textabgleich.",
-  "version": "0.1.0",
-  "author": {
-    "name": "Olaf Wulf"
-  }
-}

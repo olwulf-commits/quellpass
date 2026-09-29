@@ -1,13 +1,13 @@
 {
-  "name": "deep-research",
+  "name": "quellpass",
   "owner": {
     "name": "Olaf Wulf"
   },
   "plugins": [
     {
-      "name": "deep-research-plugin",
-      "source": "./plugins/deep-research-plugin",
-      "description": "Quellengebundene Recherche mit Gegenfrage und Textabgleich"
+      "name": "quellpass",
+      "source": "./plugins/quellpass",
+      "description": "Aussagen und Quellen prüfen und Beleglücken gezielt bearbeiten"
     }
   ]
 }

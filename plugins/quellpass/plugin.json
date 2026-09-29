@@ -1,17 +1,17 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
-  "name": "deep-research-plugin",
-  "version": "0.1.0",
-  "description": "Quellengebundene Recherche mit unabhängiger Gegenfrage, Belegprüfung und kontrolliertem Textabgleich.",
+  "name": "quellpass",
+  "version": "0.2.1",
+  "description": "QuellPass evaluiert vorhandene Aussagen und Quellen mit Gegenfrage und Belegprüfung für gezielte Verbesserungen.",
   "author": {
     "name": "Olaf Wulf"
   },
   "extensions": {
     "com.openai": {
       "interface": {
-        "displayName": "Deep Research",
-        "shortDescription": "Prüfbare Recherche mit Gegenfrage und Belegakte",
-        "longDescription": "Modellneutrales Rechercheprotokoll mit getrennten Suchspuren, Originalquellenprüfung und Textabgleich.",
+        "displayName": "QuellPass",
+        "shortDescription": "Aussagen und Quellen prüfen und stärken",
+        "longDescription": "Prüft vorhandene Aussagen und Quellen in getrennten Spuren und nutzt die Belegakte für gezielte Korrekturen.",
         "developerName": "Olaf Wulf",
         "category": "Productivity",
         "capabilities": [

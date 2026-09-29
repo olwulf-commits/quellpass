@@ -1,13 +1,15 @@
 ---
-name: deep-research-plugin
-description: Recherchiere eine prüfbare Frage mit semantisch gelesenen Webquellen, unabhängiger Gegenfrage und überprüften Originalen; erstelle auf ausdrücklichen Auftrag einen beleggebundenen Textentwurf. Für reine Meinungs- oder Kreativfragen ohne Tatsachenkern nicht verwenden.
+name: quellpass
+description: Evaluiere prüfbare Aussagen mit unabhängiger Gegenfrage und Originalquellen; nutze die Belegakte für gezielte Korrekturen und erstelle nur auf ausdrücklichen Auftrag einen Textentwurf. Nicht für reine Meinungs- oder Kreativfragen.
 ---
 
-# Deep Research Plugin
+# QuellPass
 
 Lizenz dieses Skilltexts: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) · © 2026 Olaf Wulf. Bearbeitungen müssen als solche gekennzeichnet und unter derselben Lizenz weitergegeben werden. Die allgemeine Originalfassung liegt in diesem Repository.
 
 Arbeite modell- und anbieterneutral. Die ausführende KI steuert den Ablauf und schreibt einen beauftragten Entwurf selbst. Recherche, Belegprüfung und Textgegenprüfung sind getrennte Aufgaben. Lies vor dem Lauf [das Recherche- und Textprotokoll](references/protokoll.md). Es setzt die Verfahrensgrenzen und erläutert die Durchführung.
+
+Nutze die Evaluation vorhandener Aussagen und Quellen für konkrete Verbesserungen: Bewahre tragfähige Aussagen, benenne Beleglücken und verwende die Belegakte für belegte Korrekturen oder einen besser gestützten Entwurf. Die Gate-Regeln bleiben maßgeblich.
 
 ## Auftrag und Gegenfrage
 

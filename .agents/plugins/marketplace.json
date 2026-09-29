@@ -1,14 +1,14 @@
 {
-  "name": "deep-research",
+  "name": "quellpass",
   "interface": {
-    "displayName": "Deep Research"
+    "displayName": "QuellPass"
   },
   "plugins": [
     {
-      "name": "deep-research-plugin",
+      "name": "quellpass",
       "source": {
         "source": "local",
-        "path": "./plugins/deep-research-plugin"
+        "path": "./plugins/quellpass"
       },
       "policy": {
         "installation": "AVAILABLE",

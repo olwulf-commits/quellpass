@@ -1,16 +1,16 @@
 {
-  "name": "deep-research",
+  "name": "quellpass",
   "owner": {
     "name": "Olaf Wulf"
   },
   "metadata": {
-    "description": "Allgemeines Deep-Research-Plugin mit Belegprüfung und unabhängiger Gegenfrage"
+    "description": "QuellPass für Belegprüfung und unabhängige Gegenfrage"
   },
   "plugins": [
     {
-      "name": "deep-research-plugin",
-      "source": "plugins/deep-research-plugin",
-      "description": "Quellengebundene Recherche mit Gegenfrage und Textabgleich"
+      "name": "quellpass",
+      "source": "plugins/quellpass",
+      "description": "Aussagen und Quellen prüfen und Beleglücken gezielt bearbeiten"
     }
   ]
 }

@@ -1,12 +1,12 @@
-# Lizenzen für Deep Research
+# Lizenzen für QuellPass
 
 Copyright © 2026 Olaf Wulf.
 
-Die Texte in `README.md`, `plugins/deep-research-plugin/skills/deep-research-plugin/SKILL.md` und den beiden Dateien unter `plugins/deep-research-plugin/skills/deep-research-plugin/references/` stehen unter **Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)**. Der verbindliche Lizenztext steht unter <https://creativecommons.org/licenses/by-sa/4.0/legalcode>. Bei einer Weitergabe ist Olaf Wulf als Urheber zu nennen, die Lizenz zu verlinken und eine Änderung kenntlich zu machen. Öffentlich weitergegebene Bearbeitungen stehen unter derselben Lizenz. Die Namensnennung darf keine Unterstützung oder Freigabe einer bearbeiteten Fassung durch Olaf Wulf nahelegen.
+Die Texte in `README.md`, `plugins/quellpass/skills/quellpass/SKILL.md` und den beiden Dateien unter `plugins/quellpass/skills/quellpass/references/` stehen unter **Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)**. Der verbindliche Lizenztext steht unter <https://creativecommons.org/licenses/by-sa/4.0/legalcode>. Bei einer Weitergabe ist Olaf Wulf als Urheber zu nennen, die Lizenz zu verlinken und eine Änderung kenntlich zu machen. Öffentlich weitergegebene Bearbeitungen stehen unter derselben Lizenz. Die Namensnennung darf keine Unterstützung oder Freigabe einer bearbeiteten Fassung durch Olaf Wulf nahelegen.
 
-Das Python-Werkzeug `plugins/deep-research-plugin/scripts/semantic_feedback.py` und die technischen Paket- und Konfigurationsdateien (`.agents/plugins/marketplace.json`, `.claude-plugin/marketplace.json`, `.cursor-plugin/marketplace.json`, `.github/ISSUE_TEMPLATE/testbericht.yml`, `.gitignore`, `plugins/deep-research-plugin/plugin.json` und `plugins/deep-research-plugin/.claude-plugin/plugin.json`) stehen unter der **MIT License**. Ihr vollständiger Text folgt unten.
+Das Python-Werkzeug `plugins/quellpass/scripts/semantic_feedback.py` und die technischen Paket- und Konfigurationsdateien (`.agents/plugins/marketplace.json`, `.claude-plugin/marketplace.json`, `.cursor-plugin/marketplace.json`, `.github/ISSUE_TEMPLATE/testbericht.yml`, `.gitignore`, `plugins/quellpass/plugin.json` und `plugins/quellpass/.claude-plugin/plugin.json`) stehen unter der **MIT License**. Ihr vollständiger Text folgt unten.
 
-Die Lizenzen betreffen die genannten Dateien. Sie legen keine Lizenz für Rechercheberichte oder Texte fest, die jemand mit Deep Research erstellt. Das Repository enthält die allgemeine Originalfassung von Olaf Wulf; eine fremde Bearbeitung ist keine von ihm freigegebene Fassung.
+Die Lizenzen betreffen die genannten Dateien. Sie legen keine Lizenz für Rechercheberichte oder Texte fest, die jemand mit QuellPass erstellt. Das Repository enthält die allgemeine Originalfassung von Olaf Wulf; eine fremde Bearbeitung ist keine von ihm freigegebene Fassung.
 
 ## MIT License
 
