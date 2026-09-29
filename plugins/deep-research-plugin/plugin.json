@@ -1,0 +1,24 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "deep-research-plugin",
+  "version": "0.1.0",
+  "description": "Quellengebundene Recherche mit unabhängiger Gegenfrage, Belegprüfung und kontrolliertem Textabgleich.",
+  "author": {
+    "name": "Olaf Wulf"
+  },
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Deep Research",
+        "shortDescription": "Prüfbare Recherche mit Gegenfrage und Belegakte",
+        "longDescription": "Modellneutrales Rechercheprotokoll mit getrennten Suchspuren, Originalquellenprüfung und Textabgleich.",
+        "developerName": "Olaf Wulf",
+        "category": "Productivity",
+        "capabilities": [
+          "Interactive"
+        ],
+        "defaultPrompt": "Recherchiere meine Frage kritisch, mit unabhängiger Gegenfrage und prüfbaren Belegen."
+      }
+    }
+  }
+}
