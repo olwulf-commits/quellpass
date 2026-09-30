@@ -1,8 +1,8 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "quellpass",
-  "version": "0.2.1",
-  "description": "QuellPass evaluiert vorhandene Aussagen und Quellen mit Gegenfrage und Belegprüfung für gezielte Verbesserungen.",
+  "version": "0.3.1",
+  "description": "QuellPass prüft Aussagen und Quellen mit Gegenfrage und Belegakte; auf Auftrag entsteht ein Forschungsbericht.",
   "author": {
     "name": "Olaf Wulf"
   },
@@ -10,7 +10,7 @@
     "com.openai": {
       "interface": {
         "displayName": "QuellPass",
-        "shortDescription": "Aussagen und Quellen prüfen und stärken",
+        "shortDescription": "Aussagen und Quellen prüfen",
         "longDescription": "Prüft vorhandene Aussagen und Quellen in getrennten Spuren und nutzt die Belegakte für gezielte Korrekturen.",
         "developerName": "Olaf Wulf",
         "category": "Productivity",

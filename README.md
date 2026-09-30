@@ -1,6 +1,6 @@
 # QuellPass
 
-QuellPass von Olaf Wulf recherchiert prüfbare Fragen mit einer unabhängigen Gegenfrage, Originalquellenprüfung und einer Belegakte. Ein Textentwurf entsteht nur auf ausdrücklichen Auftrag aus freigegebenen Aussagen. Das Plugin ist modell- und suchanbieterneutral.
+QuellPass von Olaf Wulf recherchiert prüfbare Fragen mit einer unabhängigen Gegenfrage, Originalquellenprüfung und einer Belegakte. Nach dem Beleggate kann auf Auftrag ein lesbarer Forschungsbericht entstehen; ein Artikel oder anderer Textentwurf bleibt ein eigener Schritt aus freigegebenen Aussagen. Das Plugin ist modell- und suchanbieterneutral.
 
 Mein Ziel ist, die Qualität von Texten mit vergleichsweise einfachen Mitteln deutlich zu verbessern. QuellPass macht Aussagen und Quellen prüfbar; TextPass arbeitet anschließend an Sprache und Lesefluss. Beides bleibt für Menschen nachvollziehbar und korrigierbar. Wie gut das im Alltag gelingt, müssen konkrete Texte zeigen.
 

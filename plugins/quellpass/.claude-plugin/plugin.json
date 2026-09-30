@@ -1,7 +1,7 @@
 {
   "name": "quellpass",
-  "description": "QuellPass evaluiert vorhandene Aussagen und Quellen mit Gegenfrage und Belegprüfung für gezielte Verbesserungen.",
-  "version": "0.2.1",
+  "description": "QuellPass prüft Aussagen und Quellen mit Gegenfrage und Belegakte; auf Auftrag entsteht ein Forschungsbericht.",
+  "version": "0.3.1",
   "author": {
     "name": "Olaf Wulf"
   }

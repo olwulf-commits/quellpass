@@ -1,6 +1,6 @@
 ---
 name: quellpass
-description: Evaluiere prüfbare Aussagen mit unabhängiger Gegenfrage und Originalquellen; nutze die Belegakte für gezielte Korrekturen und erstelle nur auf ausdrücklichen Auftrag einen Textentwurf. Nicht für reine Meinungs- oder Kreativfragen.
+description: Prüfe Aussagen mit unabhängiger Gegenfrage und Originalquellen; erstelle eine Belegakte und auf Auftrag einen Forschungsbericht oder Textentwurf. Nicht für reine Meinungsfragen.
 ---
 
 # QuellPass
@@ -22,7 +22,7 @@ Formuliere zu jeder tragenden Teilfrage eine **eigenständige Gegenfrage**. Ein 
 1. Spur A findet Belege für die prüfbare Ausgangsfrage.
 2. Spur B formuliert und recherchiert unabhängig die Gegenfrage und sucht Einschränkungen oder Widerlegungen.
 3. Der Belegprüfer verifiziert die Originaltexte, Belegstellen, Zahlen, Aktualität, Ersturheber, Dubletten und Widersprüche; er erstellt die Belegakte und das Gate-Urteil.
-4. Der unabhängige Gegenprüfer greift den fertigen Bericht oder Entwurf an und gleicht jede Aussage rückwärts mit der Belegakte ab.
+4. Der unabhängige Gegenprüfer greift Kurzbefund, beauftragten Forschungsbericht oder Entwurf an und gleicht jede Aussage rückwärts mit der Belegakte ab.
 
 Die ausführende KI koordiniert und redigiert; sie ist keine fünfte unabhängige Prüfinstanz. Wenn die Umgebung keine vier wirklich getrennten Agentenkontexte erlaubt, benenne die Einschränkung und behaupte keine unabhängige Gegenprüfung.
 
@@ -36,6 +36,8 @@ Eine Aussage darf nur auf eine Quelle gestützt werden, wenn URL, tatsächlicher
 
 ## Ergebnis und Text
 
-Gib zuerst eine kurze Antwort mit tragenden Belegen, Gegenbefunden und offenen Lücken, danach die prüfbare Belegakte. Trenne normative, empirische, attributive und kausale Aussagen. „Offen“ ist ein Befundzustand, kein viertes Gate-Urteil: Ohne Bezugspunkt oder bei ungeklärtem tragendem Widerspruch SPERREN für die betroffene Aussage; ÜBERARBEITEN nur bei konkret möglicher Korrektur aus vorhandenen Belegen; sonst FREIGEBEN nur für belegte Aussagen. Benenne Teilfreigaben ausdrücklich.
+Erstelle zuerst Belegakte und Gate-Urteil; in der Ausgabe steht die kurze Antwort vor der prüfbaren Belegakte. Trenne normative, empirische, attributive und kausale Aussagen. „Offen“ ist ein Befundzustand, kein viertes Gate-Urteil: Ohne Bezugspunkt oder bei ungeklärtem tragendem Widerspruch SPERREN für die betroffene Aussage; ÜBERARBEITEN nur bei konkret möglicher Korrektur aus vorhandenen Belegen; sonst FREIGEBEN nur für belegte Aussagen. Benenne Teilfreigaben ausdrücklich.
 
-Schreibe einen Artikel oder anderen Entwurf nur, wenn er beauftragt und das Recherchegate bestanden ist. Stelle vor dem Schreiben für die geplanten Aussagen und Absätze drei Fragen: Ist die Behauptung konkret genug? Wird eine Unsicherheit ehrlich benannt? Dient dieser Absatz dem Zweck des Textes? Leite den Textzweck aus dem Auftrag ab; frage nicht routinemäßig nach dem Verwendungszweck der Recherche. Diese Textfragen eröffnen keine weitere Suche. Stil darf die belegte Substanz nicht erweitern. Der unabhängige Gegenprüfer stellt die drei Fragen am fertigen Text und bei jeder späteren Umschreibung erneut und gleicht die Aussagen mit der Belegakte ab. Externe Schreibvorgänge, Einpflegen und Veröffentlichung benötigen jeweils die dafür geltende ausdrückliche Freigabe; dieses Plugin erteilt keine Rechte.
+Wenn ein Forschungsbericht beauftragt ist, schreibe ihn nach dem Beleggate aus freigegebenen Aussagen: eine direkte Antwort zu Beginn, danach wenige Überschriften mit den tragenden Befunden, Gegenbefunden und Grenzen. Setze Quellenlinks an die Aussagen; die Belegakte mit Abruf und Fundstelle bleibt separat prüfbar. Der Schluss darf keine unbelegte Deutung oder Empfehlung ergänzen. Agent D gleicht auch den fertigen Bericht rückwärts mit der Belegakte ab. Bei gesperrten tragenden Aussagen liefere nur den belastbaren Teil und benenne die Lücke, statt einen vollständigen Bericht vorzutäuschen.
+
+Schreibe einen Artikel oder anderen Entwurf als getrennten Schritt nur, wenn er beauftragt und das Recherchegate bestanden ist. Stelle vor dem Schreiben für die geplanten Aussagen und Absätze drei Fragen: Ist die Behauptung konkret genug? Wird eine Unsicherheit ehrlich benannt? Dient dieser Absatz dem Zweck des Textes? Leite den Textzweck aus dem Auftrag ab; frage nicht routinemäßig nach dem Verwendungszweck der Recherche. Diese Textfragen eröffnen keine weitere Suche. Stil darf die belegte Substanz nicht erweitern. Der unabhängige Gegenprüfer stellt die drei Fragen am fertigen Text und bei jeder späteren Umschreibung erneut und gleicht die Aussagen mit der Belegakte ab. Externe Schreibvorgänge, Einpflegen und Veröffentlichung benötigen jeweils die dafür geltende ausdrückliche Freigabe; dieses Plugin erteilt keine Rechte.
