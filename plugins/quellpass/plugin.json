@@ -10,6 +10,8 @@
     "com.openai": {
       "interface": {
         "displayName": "QuellPass",
+        "logo": "./assets/icon.png",
+        "composerIcon": "./assets/icon.png",
         "shortDescription": "Aussagen und Quellen prüfen",
         "longDescription": "Prüft vorhandene Aussagen und Quellen in getrennten Spuren und nutzt die Belegakte für gezielte Korrekturen.",
         "developerName": "Olaf Wulf",
