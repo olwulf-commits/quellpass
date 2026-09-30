@@ -1,5 +1,7 @@
 # QuellPass
 
+Deutsch · [English](README.en.md)
+
 QuellPass von Olaf Wulf recherchiert prüfbare Fragen mit einer unabhängigen Gegenfrage, Originalquellenprüfung und einer Belegakte. Nach dem Beleggate kann auf Auftrag ein lesbarer Forschungsbericht entstehen; ein Artikel oder anderer Textentwurf bleibt ein eigener Schritt aus freigegebenen Aussagen. Das Plugin ist modell- und suchanbieterneutral.
 
 Mein Ziel ist, die Qualität von Texten mit vergleichsweise einfachen Mitteln deutlich zu verbessern. QuellPass macht Aussagen und Quellen prüfbar; TextPass arbeitet anschließend an Sprache und Lesefluss. Beides bleibt für Menschen nachvollziehbar und korrigierbar. Wie gut das im Alltag gelingt, müssen konkrete Texte zeigen.
@@ -20,4 +22,4 @@ Skilltext, README und Referenztexte stehen unter [CC BY-SA 4.0](https://creative
 
 Tests und konkrete Verbesserungsvorschläge sind willkommen. Wer Zugriff auf das Repository hat, kann dafür einen [Testbericht auf GitHub](https://github.com/olwulf-commits/quellpass/issues/new/choose) anlegen. Die Vorlage fragt nach Werkzeug, Version, Beispiel und beobachtetem Ergebnis. Auch ein gelungener Test hilft mir. Ich prüfe die Rückmeldungen und entscheide, was an der offiziellen Fassung geändert wird.
 
-Das Repository wird auf Olafs Freigabe öffentlich bereitgestellt. Die heutige Sprach-/Strukturrecherche mit QuellPass ist dokumentiert; eine vollständige hostübergreifende Erprobung dieser eingefrorenen allgemeinen Fassung wird nicht behauptet. Die Bereitstellung auf GitHub ist keine Aufnahme in ein offizielles Anbieter-Verzeichnis und keine Qualitätsgarantie.
+Das Repository ist auf Olafs Freigabe öffentlich zugänglich. Die Sprach-/Strukturrecherche vom 30. September 2026 mit QuellPass ist dokumentiert; eine vollständige hostübergreifende Erprobung dieser eingefrorenen allgemeinen Fassung wird nicht behauptet. Die Bereitstellung auf GitHub ist keine Aufnahme in ein offizielles Anbieter-Verzeichnis und keine Qualitätsgarantie.
