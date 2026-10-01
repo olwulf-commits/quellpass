@@ -1,5 +1,7 @@
 # QuellPass
 
+[TextPass & QuellPass — Olaf Wulf](https://olwulf-commits.github.io/)
+
 Deutsch · [English](README.en.md)
 
 QuellPass von Olaf Wulf recherchiert prüfbare Fragen mit einer unabhängigen Gegenfrage, Originalquellenprüfung und einer Belegakte. Nach dem Beleggate kann auf Auftrag ein lesbarer Forschungsbericht entstehen; ein Artikel oder anderer Textentwurf bleibt ein eigener Schritt aus freigegebenen Aussagen. Das Plugin ist modell- und suchanbieterneutral.

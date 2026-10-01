@@ -1,5 +1,7 @@
 # QuellPass
 
+[TextPass & QuellPass — Olaf Wulf](https://olwulf-commits.github.io/)
+
 [Deutsch](README.md) · English
 
 QuellPass, developed by Olaf Wulf, researches verifiable questions using an **independent counter-question**, checks against original sources, and an **evidence record**. Once the **evidence review gate** has been passed, a readable research report can be written on request. An article or other draft remains a separate step, based on statements cleared by that review. The plugin is independent of any particular model or search provider.
