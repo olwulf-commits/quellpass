@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "quellpass",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "description": "QuellPass prüft Aussagen und Quellen mit Gegenfrage und Belegakte; auf Auftrag entsteht ein Forschungsbericht.",
   "author": {
     "name": "Olaf Wulf"
