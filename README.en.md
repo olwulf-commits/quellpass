@@ -20,6 +20,10 @@ The two search tracks need genuinely separate contexts if their independence is 
 
 The optional local [semantic_feedback.py](plugins/quellpass/scripts/semantic_feedback.py) tool ranks page sections that have already been retrieved. Its command-line interface requires `fastembed` and a locally available embedding model. It does not perform web searches. The execution environment must provide a web search tool and readable access to original sources. If these requirements are missing, the run must state its limitations.
 
+## Privacy and external search requests
+
+For research, the AI application's search tool sends search terms to the search engines or search services used; opening original sources involves requests to the relevant websites. QuellPass has no MCP servers of its own or fixed search-service integration. The execution environment determines the providers. Personal information and confidential text passages should not be included in external search requests. Olaf Wulf receives no usage data from operation of the plugin. Evidence records may be stored in the user's environment. See the [Privacy Notice](PRIVACY.en.md) for details.
+
 ## License
 
 The skill text, README documentation, and reference texts are licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). The Python tool and technical package files use the MIT License. See [LICENSE.md](LICENSE.md) for the allocation and license texts. Using the plugin does not place your own research reports or resulting texts under the QuellPass license.

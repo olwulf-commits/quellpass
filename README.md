@@ -16,6 +16,10 @@ Codex findet den Katalog unter `.agents/plugins/marketplace.json`. Cursor kann d
 
 Die zwei Suchspuren brauchen tatsächlich getrennte Kontexte, wenn ihre Unabhängigkeit behauptet werden soll. Für den vollständigen Ablauf müssen auch Quellenprüfung und Textgegenprüfung eigene Kontexte erhalten. In Claude Code können diese vier Aufgaben an getrennte Subagenten gehen. In Codex können vier Subagenten eingesetzt werden, sofern die verwendete Umgebung sie unterstützt. In Cursor können vier Subagenten mit jeweils eigenem Kontext eingesetzt werden. Fehlt die Trennung in einem Werkzeug, darf der Lauf keine unabhängige Gegenprüfung behaupten. Das optionale lokale Werkzeug [semantic_feedback.py](plugins/quellpass/scripts/semantic_feedback.py) sortiert bereits abgerufene Seitenabschnitte; für seinen CLI-Aufruf wird `fastembed` und ein lokal verfügbares Embedding-Modell benötigt. Es führt keine Websuche aus. Die ausführende Umgebung muss ein Websuchwerkzeug und lesbaren Zugriff auf Originalquellen bereitstellen. Fehlen diese Voraussetzungen, muss der Lauf seine Grenzen nennen.
 
+## Datenschutz und externe Suchanfragen
+
+Für die Recherche sendet das Suchwerkzeug der verwendeten KI-Anwendung Suchbegriffe an die jeweils eingesetzten Suchmaschinen oder Suchdienste; beim Öffnen von Originalquellen werden die betreffenden Websites aufgerufen. QuellPass hat keine eigenen MCP-Server oder fest angebundenen Suchdienste. Die ausführende Umgebung bestimmt die Anbieter. Persönliche Angaben und vertrauliche Textpassagen gehören nicht in externe Suchanfragen. Olaf Wulf erhält keine Nutzungsdaten aus dem Pluginbetrieb. Belegakten können in der Nutzerumgebung gespeichert werden. Einzelheiten stehen im [Datenschutzhinweis](PRIVACY.md).
+
 ## Lizenz
 
 Skilltext, README und Referenztexte stehen unter [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). Das Python-Werkzeug und die technischen Paketdateien stehen unter der MIT License. Die genaue Zuordnung und die Lizenztexte stehen in [LICENSE.md](LICENSE.md). Eigene Rechercheberichte und mit dem Plugin erstellte Texte erhalten dadurch keine QuellPass-Lizenz.
