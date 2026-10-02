@@ -14,15 +14,15 @@ This repository contains the **general edition** for Codex, Cursor, Claude Code,
 
 ## Installation and requirements
 
-Codex finds the catalog at `.agents/plugins/marketplace.json`. Cursor can read the portable plugin; `.cursor-plugin/marketplace.json` is also provided for repository import. Claude Code finds its catalog at `.claude-plugin/marketplace.json`. Add the public repository in Claude Code with `claude plugin marketplace add olwulf-commits/quellpass`, then install with `claude plugin install quellpass@quellpass`. This public edition is version 0.3.2. The preceding 0.3.1 edition was installed locally in Codex and checked against the source files; a practical run of 0.3.2 is still pending. The Claude installation route has not been tested here.
+Codex finds the catalog at `.agents/plugins/marketplace.json`. Cursor can read the portable plugin; `.cursor-plugin/marketplace.json` is also provided for repository import. Claude Code finds its catalog at `.claude-plugin/marketplace.json`. Add the public repository in Claude Code with `claude plugin marketplace add olwulf-commits/quellpass`, then install with `claude plugin install quellpass@quellpass`. This public edition is version 0.3.3. The preceding 0.3.1 edition was installed locally in Codex and checked against the source files; a practical run of 0.3.3 is still pending. The Claude installation route has not been tested here.
 
 For Grok Build, `.grok-plugin/marketplace.json` provides a public repository catalog. After the GitHub update, add it with `grok plugin marketplace add olwulf-commits/quellpass`; the skill becomes active only after a separate install. This catalog has not yet been tested in Grok Build and is not an official xAI directory listing.
 
-To use Hermes Agent, clone this repository and add the absolute path of `plugins/quellpass/skills` inside the clone under `skills.external_dirs` in `~/.hermes/config.yaml`. The complete clone keeps the references and optional script at their relative paths. Hermes supports [Grok as a model provider](https://github.com/NousResearch/hermes-agent/blob/main/website/docs/integrations/providers.md); this does not amount to a Grok Build or grok.com listing. The public 0.3.2 edition has not been tested in Hermes with Grok. See the [Hermes external skills guide](https://github.com/NousResearch/hermes-agent/blob/main/website/docs/user-guide/features/skills.md#external-skill-directories).
+To use Hermes Agent, clone this repository and add the absolute path of `plugins/quellpass/skills` inside the clone under `skills.external_dirs` in `~/.hermes/config.yaml`. The complete clone keeps the references at their relative paths. Hermes supports [Grok as a model provider](https://github.com/NousResearch/hermes-agent/blob/main/website/docs/integrations/providers.md); this does not amount to a Grok Build or grok.com listing. The public 0.3.3 edition has not been tested in Hermes with Grok. See the [Hermes external skills guide](https://github.com/NousResearch/hermes-agent/blob/main/website/docs/user-guide/features/skills.md#external-skill-directories).
 
 The two search tracks need genuinely separate contexts if their independence is to be claimed. The complete workflow also requires separate contexts for source verification and the final text cross-check. These four tasks can be assigned to separate subagents in Claude Code, Codex, or Cursor where the environment supports them. Without that separation, a run must not claim an independent cross-check.
 
-The optional local [semantic_feedback.py](plugins/quellpass/scripts/semantic_feedback.py) tool ranks page sections that have already been retrieved. Its command-line interface requires `fastembed` and a locally available embedding model. It does not perform web searches. The execution environment must provide a web search tool and readable access to original sources. If these requirements are missing, the run must state its limitations.
+The execution environment must provide a web search tool and readable access to original sources. If these requirements are missing, the run must state its limitations.
 
 ## Privacy and external search requests
 
@@ -30,7 +30,7 @@ For research, the AI application's search tool sends search terms to the search 
 
 ## License
 
-The skill text, README documentation, and reference texts are licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). The Python tool and technical package files use the MIT License. See [LICENSE.md](LICENSE.md) for the allocation and license texts. Using the plugin does not place your own research reports or resulting texts under the QuellPass license.
+The skill text, README documentation, and reference texts are licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). The technical package files use the MIT License. See [LICENSE.md](LICENSE.md) for the allocation and license texts. Using the plugin does not place your own research reports or resulting texts under the QuellPass license.
 
 ## Contribute
 

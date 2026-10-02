@@ -14,7 +14,7 @@ Für die Recherche übermittelt das Suchwerkzeug der KI-Anwendung Suchbegriffe a
 
 Belegakten und Forschungsberichte können in der Unterhaltung oder auf Auftrag als Dateien in der Nutzerumgebung gespeichert werden. Diese Inhalte gehen nicht an Olaf Wulf; Speicherort, Zugriff und Aufbewahrung richten sich nach der verwendeten Anwendung und den Entscheidungen der Nutzer.
 
-Das optionale lokale Sortierwerkzeug verarbeitet bereits abgerufene Textabschnitte in der ausführenden Umgebung. Es führt keine Websuche aus und sendet diese Abschnitte nicht an den Herausgeber. Für den vorgesehenen CLI-Betrieb wird ein lokal verfügbares Embedding-Modell benötigt.
+Die öffentliche Fassung enthält kein Embedding-Modell und kein lokales Vektor-Sortierwerkzeug. Die ausführende KI vergleicht gelesene Textabschnitte inhaltlich; diese Einschätzungen sind Modellurteile und keine Vektormessung.
 
 QuellPass richtet sich auch an Jugendliche zur Unterstützung von Recherche und Quellenprüfung. Für die Nutzung gelten die Altersvorgaben der jeweiligen KI-Anwendung und Suchdienste.
 

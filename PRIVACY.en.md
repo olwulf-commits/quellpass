@@ -14,7 +14,7 @@ For research, the AI application's search tool sends search terms to the search 
 
 Evidence records and research reports may be retained in the conversation or saved as files in the user's environment on request. These contents are not sent to Olaf Wulf. Their location, access, and retention depend on the application and the user's choices.
 
-The optional local ranking tool processes retrieved text sections in the execution environment. It does not perform web searches or send those sections to the publisher. Its intended command-line operation requires a locally available embedding model.
+The public version includes neither an embedding model nor a local vector-ranking tool. The host AI compares retrieved text passages by meaning; these assessments are model judgments, not vector measurements.
 
 QuellPass is also intended to help young people research and verify sources. The age requirements of the AI application and search services used apply.
 
